@@ -65,7 +65,7 @@ next, open your browser and visit ```http://localhost:3000/```
 
 Please note that this project is solely built for a production. The production endpoint is currently inactive and therefore, unless the endpoint is set active, the form won't be able to be utilized by the users. 
 
-#### The endpoint is inactive but I can guarantee you that the form will worj just fine ;-)
+#### The endpoint is inactive but I can guarantee you that the form will work just fine ;-)
   How do I know? Because we have ```unit tests```! 
 
 
