@@ -33,7 +33,6 @@ export default function App() {
     
     
     useEffect(() => {
-
         agent.FormInfo.list()
             .then((data) => {
                 setStates(data.states); 
@@ -45,7 +44,7 @@ export default function App() {
     }, [])
 
     const handleSubmit = async(data: UserModel) => {
-        
+
         return agent.FormInfo.submitForm(data)
                 .then((response) => response.value)
                 .catch((error) => console.error(error))

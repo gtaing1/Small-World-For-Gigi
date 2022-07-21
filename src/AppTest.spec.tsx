@@ -62,7 +62,7 @@ describe('Form Submit', () => {
     jest.mock('axios');
     const mockedAxios = jest.mocked(axios);
     const mockPost = jest.spyOn(axios,'post'); 
-    test("can submit form", async () => {
+    test("use can submit form", async () => {
 
         const handleSubmit = jest.fn(); 
     const values = {

@@ -5,7 +5,7 @@ import { toast } from 'react-toastify'
 
 const sleep = () => new Promise((resolve) => setTimeout(resolve, 500)); 
 
-axios.defaults.baseURL = 'https://not-real-endpoint.smallworld.ai/form';
+axios.defaults.baseURL = `https://not-real-endpoint.smallworld.ai/form`;
 
 const responseBody = (response: any) => response.data; 
 
@@ -37,9 +37,6 @@ axios.interceptors.response.use(
       case 500:
         toast.error("Failed to fetch form data")
         break
-      case 0: 
-        toast.error("Endpoint is inactive")
-        break;
       default:
         break
     }
