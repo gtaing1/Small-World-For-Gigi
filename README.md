@@ -63,11 +63,8 @@ next, open your browser and visit ```http://localhost:3000/```
 
 ### Warning! 
 
-Please note that this project is solely built for a production. The production endpoint is currently inactive and therefore, unless the endpoint is set active, the form won't be able to be utilized by the users. 
-
-#### The endpoint is inactive but I can guarantee you that the form will work just fine ;-)
-  How do I know? Because we have ```unit tests```! 
-
+The project currently does not have live endpoint API. Instead, it is running on Mock Service Worker for browsers that intercepts actual requests on the network level. 
+Thus, the data you see are all mocked and feedback you get from the form is also mocked as well. 
 
 ### Run Tests
 
